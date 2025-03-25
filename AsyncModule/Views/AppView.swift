@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AppView.swift
 //  AsyncModule
 //
 //  Created by Cihan Yilmaz on 26/03/2025.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AppView: View {
     var body: some View {
-        AppView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    AppView()
 }
